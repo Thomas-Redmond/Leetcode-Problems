@@ -1,5 +1,6 @@
 class Solution:
     def isPalindrome(self, x: int) -> bool:
+        # Compare alpha and omega characters, approaching middle ground, if match not detected fail
 
         array = [y for y in str(x)] # convert to char array
 
